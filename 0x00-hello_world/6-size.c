@@ -1,11 +1,15 @@
 #include <stdio.h>
 
+
+
 /**
- * main - prints  the size of various types on the computer it is compiled and run on
+ * main - prints  the size of various types on
+ * the computer it is compiled and run on
  * Return: Always 0.
  */
 
 int main(void)
+
 {
 	ptintf("size of a char: %zu byte(s)\n", sizeof(char));
         ptintf("size of an int : %zu byte(s)\n", sizeof(int));
